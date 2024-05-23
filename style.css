@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+
+#party-list { /* Style for the party list container */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.party-item { /* Style for each party in the list */
+    border: 1px solid #ccc;
+    padding: 15px;
+}
